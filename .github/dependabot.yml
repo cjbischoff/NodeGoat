@@ -21,10 +21,3 @@ updates:
       include: "scope"
     # This effectively only allows security updates (which ignore this)
     open-pull-requests-limit: 0
-    groups:
-      security-updates:
-        patterns:
-          - "*"
-        update-types:
-          - "patch"
-          - "minor"
