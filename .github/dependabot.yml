@@ -9,7 +9,6 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    target-branch: "development"
     versioning-strategy: "lockfile-only"
     ignore:
       - dependency-name: "*"
